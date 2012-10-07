@@ -33,12 +33,12 @@ http://labs.mkunited.com/iconic-blackberry-splat
 *LICENSE & LEGAL*
 
 The "splat" icon is a globally recognized symbol of Research In Motion Limited, BlackBerry brand. 
-Iconic-Splat code is open-source and free to use distribute. Please credit mkunited.
+Iconic-Splat code is open-source and free to use and/or distribute. Please credit mkunited.
 
 This project is not endorsed or sanctioned by Research In Motion Limited.
 
 ### *ABOUT*
 
-This open-source project emerged from R&D lab at mkunited.
+R&D lab at mkunited.
 
 <a href="http://twitter.com/mkrk"> @mkrk</a> of mkunited 
