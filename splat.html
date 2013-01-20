@@ -3,85 +3,170 @@
     <head>
         <meta charset=UTF-8">
         <title>The BlackBerry&reg; Splat in HTML5/CSS3</title>
-		<style>
-		    *{margin:0;padding:0}
-			body{font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; line-height:1.28}
-			h1{font-weight:100;margin:5em auto 2em auto; width:700px;text-align:center;}
-			ul.splat{
-				list-style-type:none;
-				margin:5em auto 1em auto;
-				padding:0;
-				 background-color: #E50100;
-				 height: 300px;
-				 -moz-border-radius:150px;
-				 border-radius: 150px;
-				 -webkit-border-radius: 150px;
-				 width: 300px;
-				 position:relative;
-			}
-			ul.splat > li{
-				background: #FFF;
-				height: 110px;
-				width: 24px;
-				position: absolute;
-			}
-			ul.splat > li:nth-child(2), ul.splat > li:nth-child(3){
-				height: 100px;
-			}
-			ul.splat > li:first-child{
-				top: 59px;
-				left: 139px;
-			}
-			ul.splat > li:nth-child(2){
-				top: 85px;
-				left: 185px;
-				-webkit-transform: rotate(65deg);
-				transform: rotate(65deg);
-				-ms-transform: rotate(65deg); /* IE 9 */
-				-webkit-transform: rotate(65deg); /* Safari and Chrome */
-				-moz-transform: rotate(65deg); /* Firefox */
-				-o-transform: rotate(65deg); /* Opera */
-			}
-			ul.splat > li:nth-child(3){
-				top: 85px;
-				left: 95px;
-				-webkit-transform: rotate(-65deg);
-				transform: rotate(-65deg);
-				-ms-transform: rotate(-65deg); /* IE 9 */
-				-webkit-transform: rotate(-65deg); /* Safari and Chrome */
-				-moz-transform: rotate(-65deg); /* Firefox */
-				-o-transform: rotate(-65deg); /* Opera */
-			}
-			ul.splat > li:nth-child(4){
-				top: 131px;
-				left: 115px;
-				-webkit-transform: rotate(41deg);
-				transform: rotate(41deg);
-				-ms-transform: rotate(41deg); /* IE 9 */
-				-webkit-transform: rotate(41deg); /* Safari and Chrome */
-				-moz-transform: rotate(41deg); /* Firefox */
-				-o-transform: rotate(41deg); /* Opera */
-			}
-			ul.splat > li:nth-child(5){
-				top: 131px;
-				left: 165px;				
-				transform: rotate(-41deg);
-				-ms-transform: rotate(-41deg); /* IE 9 */
-				-webkit-transform: rotate(-41deg); /* Safari and Chrome */
-				-moz-transform: rotate(-41deg); /* Firefox */
-				-o-transform: rotate(-41deg); /* Opera */
-			}
-		</style>
+        <style>
+            *{margin:0;padding:0}
+            body{font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; line-height:1.28}
+            h1{font-weight:100;margin:5em auto 2em auto; width:700px;text-align:center;}
+            ul.splat{
+                list-style-type:none;
+                margin:5em auto 1em auto;
+                padding:0;
+                background-color: #E50100;
+                height: 300px;
+                -moz-border-radius:150px;
+                border-radius: 150px;
+                -webkit-border-radius: 150px;
+                width: 300px;
+                position:relative;
+            }
+            ul.splat > li{
+                background: #FFF;
+                height: 110px;
+                width: 24px;
+                position: absolute;
+            }
+            ul.splat > li:nth-child(2), ul.splat > li:nth-child(3){
+                height: 100px;
+            }
+            ul.splat > li:first-child{
+                top: 59px;
+                left: 139px;
+            }
+            ul.splat > li:nth-child(2){
+                top: 85px;
+                left: 185px;
+                -webkit-transform: rotate(65deg);
+                transform: rotate(65deg);
+                -ms-transform: rotate(65deg); /* IE 9 */
+                -webkit-transform: rotate(65deg); /* Safari and Chrome */
+                -moz-transform: rotate(65deg); /* Firefox */
+                -o-transform: rotate(65deg); /* Opera */
+            }
+            ul.splat > li:nth-child(3){
+                top: 85px;
+                left: 95px;
+                -webkit-transform: rotate(-65deg);
+                transform: rotate(-65deg);
+                -ms-transform: rotate(-65deg); /* IE 9 */
+                -webkit-transform: rotate(-65deg); /* Safari and Chrome */
+                -moz-transform: rotate(-65deg); /* Firefox */
+                -o-transform: rotate(-65deg); /* Opera */
+            }
+            ul.splat > li:nth-child(4){
+                top: 131px;
+                left: 115px;
+                -webkit-transform: rotate(41deg);
+                transform: rotate(41deg);
+                -ms-transform: rotate(41deg); /* IE 9 */
+                -webkit-transform: rotate(41deg); /* Safari and Chrome */
+                -moz-transform: rotate(41deg); /* Firefox */
+                -o-transform: rotate(41deg); /* Opera */
+            }
+            ul.splat > li:nth-child(5){
+                top: 131px;
+                left: 165px;				
+                transform: rotate(-41deg);
+                -ms-transform: rotate(-41deg); /* IE 9 */
+                -webkit-transform: rotate(-41deg); /* Safari and Chrome */
+                -moz-transform: rotate(-41deg); /* Firefox */
+                -o-transform: rotate(-41deg); /* Opera */
+            }
+            
+            /*ui*/
+            .container{width:920px; margin:0 auto;}
+            p{background:#F9F9F9; font-size:2em; font-weight:100; text-align:center;}
+            pre{font-family:Courier New, serif; margin:1em 0 2em;}
+        </style>
     </head>
     <body>
-	<a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-		<h1>The BlackBerry&reg; Splat in HTML5/CSS3</h1>
-		    <ul class="splat">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
+        <a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+        <h1>The BlackBerry&reg; Splat in HTML5/CSS3</h1>
+        <ul class="splat">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div id="code_preview" class="container">
+            <p>css</p>
+            <pre>
+            ul.splat{
+                list-style-type:none;
+                margin:5em auto 1em auto;
+                padding:0;
+                background-color: #E50100;
+                height: 300px;
+                -moz-border-radius:150px;
+                border-radius: 150px;
+                -webkit-border-radius: 150px;
+                width: 300px;
+                position:relative;
+            }
+            ul.splat > li{
+                background: #FFF;
+                height: 110px;
+                width: 24px;
+                position: absolute;
+            }
+            ul.splat > li:nth-child(2), ul.splat > li:nth-child(3){
+                height: 100px;
+            }
+            ul.splat > li:first-child{
+                top: 59px;
+                left: 139px;
+            }
+            ul.splat > li:nth-child(2){
+                top: 85px;
+                left: 185px;
+                -webkit-transform: rotate(65deg);
+                transform: rotate(65deg);
+                -ms-transform: rotate(65deg); /* IE 9 */
+                -webkit-transform: rotate(65deg); /* Safari and Chrome */
+                -moz-transform: rotate(65deg); /* Firefox */
+                -o-transform: rotate(65deg); /* Opera */
+            }
+            ul.splat > li:nth-child(3){
+                top: 85px;
+                left: 95px;
+                -webkit-transform: rotate(-65deg);
+                transform: rotate(-65deg);
+                -ms-transform: rotate(-65deg); /* IE 9 */
+                -webkit-transform: rotate(-65deg); /* Safari and Chrome */
+                -moz-transform: rotate(-65deg); /* Firefox */
+                -o-transform: rotate(-65deg); /* Opera */
+            }
+            ul.splat > li:nth-child(4){
+                top: 131px;
+                left: 115px;
+                -webkit-transform: rotate(41deg);
+                transform: rotate(41deg);
+                -ms-transform: rotate(41deg); /* IE 9 */
+                -webkit-transform: rotate(41deg); /* Safari and Chrome */
+                -moz-transform: rotate(41deg); /* Firefox */
+                -o-transform: rotate(41deg); /* Opera */
+            }
+            ul.splat > li:nth-child(5){
+                top: 131px;
+                left: 165px;				
+                transform: rotate(-41deg);
+                -ms-transform: rotate(-41deg); /* IE 9 */
+                -webkit-transform: rotate(-41deg); /* Safari and Chrome */
+                -moz-transform: rotate(-41deg); /* Firefox */
+                -o-transform: rotate(-41deg); /* Opera */
+            }
+            </pre>
+            <p>html</p>
+            <pre>
+            &lt;ul class="splat"&gt;
+                &lt;li&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            </pre>
+
+        </div>
     </body>
 </html>
